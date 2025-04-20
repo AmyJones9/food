@@ -8,14 +8,14 @@ let isSpinning = false;
 let account = "";
 
 const prizes = [
-  { text: "98", weight: 50, image: "public/images/8.png" },
-  { text: "198", weight: 30, image: "public/images/7.png" },
-  { text: "398", weight: 10, image: "public/images/1.png" },
-  { text: "598", weight: 5, image: "public/images/2.png" },
-  { text: "798", weight: 3, image: "public/images/3.png" },
-  { text: "1066", weight: 2, image: "public/images/4.png" },
-  { text: "18666", weight: 0, image: "public/images/5.png" },
-  { text: "3666", weight: 0, image: "public/images/6.png" },
+  { text: "98", weight: 50, image: "8.png" },
+  { text: "198", weight: 30, image: "7.png" },
+  { text: "398", weight: 10, image: "1.png" },
+  { text: "598", weight: 5, image: "2.png" },
+  { text: "798", weight: 3, image: "3.png" },
+  { text: "1066", weight: 2, image: "4.png" },
+  { text: "18666", weight: 0, image: "5.png" },
+  { text: "3666", weight: 0, image: "6.png" },
 ];
 
 const arc = Math.PI * 2 / prizes.length;
